@@ -1,0 +1,7 @@
+1.download ik from https://github.com/medcl/elasticsearch-analysis-ik
+2.switch to the ik directory
+3.run mvn package then copy the jar package ES plugin directory
+4.copy the config in /config/elasticsearch.yml of ik directory into elasticsearch plugin directory /plugin/config/elasticsearch.yml(alternative: write the content of this yml file to the yml file in es HOME /config.)
+4.download the ik dictionary from http://github.com/downloads/medcl/elasticsearch-analysis-ik/ik.zip
+5.unzip the ik.zip and copy it to /config in elasticsearch home directory 
+6.restart elasticsearch service
